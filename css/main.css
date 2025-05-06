@@ -1,0 +1,166 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilos generales */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+}
+@media (max-width: 600px) {
+  body .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*estilos de header*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  color: white;
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  /* Logo superior izquierdo */
+  /* Navbar mobile-first */
+}
+header nav ul {
+  color: #333;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  color: white;
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  gap: 7px;
+  padding: 10px 30px;
+}
+header nav ul a {
+  display: block;
+  padding: 15px;
+  font-size: 1.2rem;
+  width: 100px;
+  text-align: center;
+}
+header .logo-container img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 30px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: 1.2rem;
+  padding: 20px;
+  text-align: center;
+}
+header nav ul li a:hover {
+  color: #fcbf49; /* Color llamativo al pasar el mouse */
+}
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #222;
+}
+header h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+header p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: bold;
+  text-align: center;
+}
+header section img {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+header footer {
+  text-align: right;
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
+header .remeras-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+header .remeras-container img {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+}
+header .calzado-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+header .calzado-container img {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+}
+header .pareja-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+header .pareja-container img {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+}
+header .navbar {
+  background-color: #333; /* Fondo oscuro */
+}
+header .navbar-brand, header .navbar-nav .nav-link {
+  color: #fff; /* Texto blanco */
+}
+header .navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Color blanco en hover */
+}
+
+/* estilos de main*/
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
